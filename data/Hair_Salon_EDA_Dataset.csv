@@ -1,0 +1,501 @@
+CustomerID,Age,Gender,Visit_Frequency,Service_Type,Average_Spend_Per_Visit,Total_Spend,Loyalty_Program,Promotional_Response,Feedback_Score
+1,56,Female,3,Haircut,56.36,741.17,Yes,No,3
+2,69,Male,1,Treatment,37.41,300.87,No,No,2
+3,46,Male,5,Hair Coloring,53.9,16.39,No,Yes,5
+4,32,Female,4,Hair Coloring,46.83,528.59,No,Yes,4
+5,60,Male,10,Haircut,49.17,138.68,No,Yes,3
+6,25,Male,8,Styling,61.12,177.94,No,No,3
+7,38,Female,1,Haircut,39.16,142.57,No,No,2
+8,56,Male,10,Treatment,62.78,69.52,Yes,No,2
+9,36,Male,1,Styling,81.35,592.77,No,No,1
+10,40,Male,12,Hair Coloring,56.86,441.47,No,No,4
+11,28,Female,4,Styling,34.36,197.58,Yes,Yes,1
+12,28,Female,8,Hair Coloring,37.7,149.11,No,No,3
+13,41,Female,5,Styling,45.03,522.94,Yes,No,5
+14,53,Male,2,Styling,38.1,207.53,No,Yes,5
+15,57,Male,6,Styling,30.18,150.6,No,Yes,2
+16,41,Female,5,Treatment,53.09,39.15,No,Yes,5
+17,20,Male,2,Treatment,45.58,103.85,No,Yes,5
+18,39,Male,11,Haircut,53.79,54.75,No,No,5
+19,19,Female,11,Haircut,73.73,56.93,Yes,Yes,3
+20,41,Female,11,Hair Coloring,45.27,115.42,No,No,5
+21,61,Male,3,Treatment,26.29,450.62,No,No,5
+22,47,Male,9,Hair Coloring,42.02,483.91,Yes,No,5
+23,55,Male,7,Haircut,65.41,379.85,Yes,No,1
+24,19,Female,7,Hair Coloring,63.54,356.5,Yes,No,3
+25,38,Female,11,Haircut,60.37,151.79,Yes,No,2
+26,50,Female,6,Treatment,37.51,165.2,No,No,1
+27,29,Female,8,Styling,65.04,374.36,No,Yes,4
+28,39,Male,4,Treatment,69.54,274.57,Yes,No,3
+29,61,Female,8,Hair Coloring,36.09,262.18,No,Yes,3
+30,42,Female,4,Hair Coloring,49.17,388.69,Yes,No,4
+31,66,Female,8,Treatment,90.41,346.22,No,Yes,4
+32,44,Female,9,Treatment,35.2,48.94,No,No,4
+33,59,Female,3,Haircut,15.9,171.9,Yes,No,2
+34,45,Male,3,Hair Coloring,77.66,170.36,No,No,5
+35,33,Male,11,Hair Coloring,72.73,178.73,No,No,3
+36,32,Female,2,Treatment,40.86,145.97,Yes,No,5
+37,64,Male,10,Styling,47.74,732.96,Yes,Yes,5
+38,68,Female,3,Hair Coloring,25.5,247.23,No,No,4
+39,61,Female,3,Styling,51.78,194.55,No,No,2
+40,69,Male,5,Treatment,73.32,642.7,No,No,1
+41,20,Male,5,Treatment,39.15,327.59,No,No,2
+42,54,Female,2,Haircut,67.54,382.01,No,No,5
+43,68,Female,12,Hair Coloring,59.27,271.38,No,No,2
+44,24,Female,10,Styling,61.56,172.1,No,No,4
+45,38,Male,6,Haircut,40.31,40.12,No,Yes,1
+46,26,Female,5,Hair Coloring,42.91,764.34,Yes,Yes,4
+47,56,Female,6,Haircut,13.06,278.4,No,Yes,1
+48,35,Female,1,Treatment,38.67,417.5,No,No,5
+49,21,Male,5,Hair Coloring,73.27,271.06,Yes,No,1
+50,42,Female,9,Haircut,31.41,60.25,No,No,1
+51,31,Female,12,Haircut,34.39,348.68,Yes,No,1
+52,67,Male,10,Styling,62.8,199.79,No,No,2
+53,26,Female,2,Haircut,58.06,584.31,No,No,2
+54,43,Female,1,Hair Coloring,63.8,427.96,Yes,No,5
+55,19,Male,10,Hair Coloring,26.74,672.56,Yes,Yes,1
+56,37,Female,11,Styling,101.28,100.89,No,Yes,3
+57,45,Male,9,Hair Coloring,25.68,25.17,No,No,5
+58,64,Male,10,Treatment,53.08,186.33,Yes,No,1
+59,24,Female,9,Hair Coloring,46.83,72.39,No,No,1
+60,61,Female,9,Hair Coloring,26.27,546.83,Yes,No,2
+61,25,Female,6,Haircut,42.6,564.72,No,No,5
+62,64,Female,8,Haircut,50.47,512.53,No,Yes,1
+63,52,Male,11,Hair Coloring,37.0,133.72,No,Yes,1
+64,31,Female,1,Styling,68.74,409.12,No,No,5
+65,34,Male,10,Haircut,46.77,592.18,No,No,3
+66,53,Female,4,Styling,23.17,560.04,No,No,5
+67,67,Female,1,Hair Coloring,21.48,225.8,Yes,No,5
+68,57,Female,8,Hair Coloring,62.12,218.12,Yes,No,3
+69,21,Male,1,Treatment,20.26,286.86,Yes,No,5
+70,19,Female,3,Haircut,56.33,49.21,No,No,1
+71,23,Female,4,Hair Coloring,58.89,244.2,Yes,No,5
+72,59,Female,8,Treatment,30.09,101.83,No,No,3
+73,21,Female,6,Haircut,67.81,726.76,No,No,4
+74,46,Male,10,Hair Coloring,15.64,737.48,Yes,No,5
+75,35,Female,12,Hair Coloring,55.93,295.41,No,Yes,2
+76,43,Male,7,Haircut,49.18,164.64,No,No,1
+77,61,Male,8,Haircut,47.62,140.08,No,No,1
+78,51,Male,2,Haircut,26.44,54.1,No,No,2
+79,27,Male,10,Hair Coloring,31.26,78.41,No,No,2
+80,53,Male,11,Hair Coloring,82.38,226.71,No,No,5
+81,31,Male,8,Treatment,74.3,841.9,Yes,No,2
+82,48,Female,3,Styling,64.84,109.88,No,No,4
+83,65,Male,7,Haircut,68.8,729.39,No,Yes,3
+84,32,Male,3,Hair Coloring,66.92,170.5,Yes,No,2
+85,25,Male,7,Hair Coloring,43.53,131.56,No,No,2
+86,31,Female,11,Haircut,50.95,263.08,Yes,No,4
+87,40,Female,12,Styling,20.55,170.33,No,No,1
+88,57,Male,2,Haircut,48.21,597.04,Yes,No,1
+89,38,Female,10,Styling,73.67,575.98,No,No,5
+90,33,Male,6,Hair Coloring,36.79,131.35,No,No,4
+91,62,Male,3,Styling,70.46,58.66,No,No,3
+92,35,Female,3,Treatment,51.83,73.74,No,Yes,3
+93,64,Male,9,Hair Coloring,22.29,30.26,Yes,No,4
+94,41,Female,7,Treatment,27.85,79.73,No,No,3
+95,43,Female,5,Haircut,68.39,662.23,Yes,No,1
+96,42,Male,12,Haircut,61.05,307.51,No,Yes,3
+97,62,Male,10,Haircut,52.04,327.71,No,No,3
+98,58,Female,7,Styling,44.52,164.19,No,No,4
+99,46,Male,9,Hair Coloring,54.21,731.94,No,Yes,4
+100,32,Male,1,Haircut,67.61,329.78,No,No,3
+101,62,Male,7,Haircut,79.52,507.69,No,No,2
+102,18,Female,6,Hair Coloring,80.47,131.36,No,No,4
+103,42,Female,10,Haircut,57.44,287.27,No,No,5
+104,24,Male,12,Treatment,46.56,446.64,Yes,No,5
+105,26,Female,9,Hair Coloring,52.92,314.32,Yes,No,1
+106,41,Female,1,Hair Coloring,60.44,150.35,Yes,No,3
+107,18,Female,4,Hair Coloring,60.36,487.65,No,Yes,2
+108,61,Female,9,Treatment,76.16,249.95,Yes,Yes,1
+109,25,Female,4,Hair Coloring,92.32,364.5,No,No,3
+110,41,Male,10,Treatment,45.89,317.17,Yes,Yes,4
+111,28,Male,3,Hair Coloring,93.12,694.54,Yes,No,5
+112,68,Male,9,Styling,73.44,65.0,No,No,2
+113,34,Female,2,Haircut,47.98,375.09,No,No,5
+114,25,Female,4,Styling,79.97,211.07,Yes,No,4
+115,52,Male,6,Haircut,83.71,208.83,No,No,3
+116,52,Female,2,Treatment,40.79,359.06,Yes,No,4
+117,50,Male,8,Styling,84.64,772.59,No,No,4
+118,22,Male,8,Hair Coloring,71.5,154.87,No,Yes,5
+119,59,Male,1,Haircut,97.37,136.82,Yes,No,2
+120,56,Female,12,Haircut,41.52,87.33,No,No,4
+121,58,Female,3,Styling,42.93,360.93,No,No,5
+122,45,Male,10,Treatment,9.47,522.16,No,No,2
+123,24,Male,9,Styling,61.42,100.25,Yes,Yes,3
+124,26,Male,5,Treatment,57.51,345.78,Yes,No,3
+125,25,Male,6,Treatment,38.74,307.11,No,No,1
+126,29,Female,4,Haircut,48.36,359.18,Yes,No,5
+127,51,Female,10,Styling,23.78,215.42,No,No,2
+128,50,Male,2,Styling,73.97,21.58,No,No,4
+129,65,Male,11,Treatment,40.21,236.41,No,No,3
+130,40,Female,8,Styling,111.88,302.86,Yes,No,2
+131,41,Female,11,Hair Coloring,46.49,305.33,Yes,No,5
+132,54,Male,6,Hair Coloring,34.81,40.12,No,No,1
+133,52,Male,5,Styling,41.75,19.59,Yes,Yes,3
+134,61,Male,9,Styling,21.76,459.13,Yes,No,2
+135,57,Female,1,Treatment,59.65,457.78,Yes,No,2
+136,39,Female,5,Hair Coloring,41.6,192.09,No,No,2
+137,44,Female,6,Hair Coloring,72.63,446.8,No,No,5
+138,52,Male,5,Haircut,44.51,213.95,Yes,No,5
+139,18,Male,6,Treatment,77.69,65.46,Yes,No,5
+140,52,Female,6,Haircut,65.15,270.58,Yes,No,4
+141,54,Female,7,Hair Coloring,50.57,97.26,No,No,2
+142,64,Male,4,Treatment,81.6,78.4,No,Yes,3
+143,31,Female,11,Styling,69.05,389.87,No,Yes,5
+144,20,Female,8,Treatment,108.92,667.92,No,No,5
+145,18,Male,7,Styling,41.81,548.12,No,Yes,2
+146,22,Female,9,Styling,51.53,62.26,No,Yes,5
+147,43,Male,7,Treatment,81.37,224.3,No,No,4
+148,31,Male,3,Styling,19.13,134.8,Yes,No,4
+149,56,Male,3,Haircut,76.34,707.96,Yes,No,5
+150,44,Male,8,Hair Coloring,58.79,250.53,Yes,Yes,2
+151,26,Male,5,Styling,32.24,668.77,Yes,No,2
+152,32,Male,4,Haircut,22.74,194.09,No,Yes,2
+153,32,Male,8,Styling,36.55,459.98,No,No,1
+154,43,Female,6,Hair Coloring,4.3,47.96,Yes,No,5
+155,59,Male,2,Haircut,40.21,65.99,No,No,2
+156,30,Male,4,Hair Coloring,62.45,-67.37,No,No,4
+157,68,Female,12,Hair Coloring,40.47,383.26,Yes,Yes,3
+158,49,Female,11,Haircut,77.77,95.89,Yes,No,3
+159,56,Female,4,Haircut,83.2,545.47,No,No,2
+160,66,Male,6,Haircut,75.51,78.56,No,No,3
+161,69,Female,6,Treatment,54.61,363.99,Yes,Yes,3
+162,49,Male,1,Haircut,3.51,105.84,Yes,No,1
+163,21,Male,8,Haircut,35.93,407.14,No,No,4
+164,47,Male,6,Haircut,47.16,516.94,Yes,No,4
+165,54,Male,3,Haircut,32.12,387.42,No,No,1
+166,40,Female,9,Styling,47.21,558.15,No,No,1
+167,56,Female,2,Treatment,82.2,87.24,Yes,No,3
+168,62,Male,11,Hair Coloring,17.08,99.27,No,No,5
+169,32,Male,8,Haircut,86.23,677.27,No,No,3
+170,60,Male,10,Styling,67.69,289.17,Yes,No,1
+171,46,Female,3,Styling,55.36,584.03,No,No,4
+172,53,Male,12,Styling,35.73,109.81,No,No,3
+173,30,Male,5,Hair Coloring,32.52,512.43,No,No,5
+174,49,Female,6,Haircut,17.48,135.64,Yes,No,3
+175,24,Female,10,Treatment,84.34,285.15,No,No,2
+176,68,Male,6,Treatment,80.75,282.19,No,No,3
+177,39,Female,4,Styling,21.87,568.49,Yes,No,1
+178,45,Female,3,Hair Coloring,38.95,634.66,Yes,No,4
+179,19,Male,4,Hair Coloring,58.66,260.97,Yes,No,4
+180,59,Female,1,Hair Coloring,44.01,168.56,No,Yes,1
+181,62,Male,4,Treatment,11.63,326.37,Yes,No,2
+182,23,Female,1,Styling,36.84,261.1,Yes,No,1
+183,45,Male,12,Haircut,89.02,460.18,No,Yes,3
+184,45,Male,1,Treatment,38.2,32.18,Yes,No,1
+185,61,Male,10,Styling,46.73,28.74,Yes,No,1
+186,61,Female,6,Styling,27.1,474.86,Yes,Yes,2
+187,37,Male,5,Haircut,61.76,224.16,Yes,No,3
+188,47,Female,11,Haircut,52.3,342.67,Yes,No,5
+189,28,Male,4,Haircut,35.16,179.24,No,No,5
+190,45,Male,11,Hair Coloring,23.91,305.54,Yes,No,4
+191,42,Female,3,Haircut,78.09,143.73,Yes,Yes,1
+192,56,Male,1,Styling,17.89,874.0,No,Yes,4
+193,50,Male,6,Haircut,60.08,299.21,No,No,2
+194,18,Female,2,Styling,6.92,373.3,No,No,5
+195,44,Male,8,Treatment,64.14,24.61,No,No,1
+196,69,Male,10,Hair Coloring,69.41,199.71,Yes,Yes,2
+197,30,Male,5,Treatment,71.9,264.97,No,No,2
+198,58,Male,7,Treatment,46.78,825.86,No,Yes,1
+199,20,Female,10,Styling,81.68,552.78,Yes,Yes,2
+200,56,Female,12,Treatment,96.16,152.76,No,No,1
+201,23,Male,2,Styling,43.57,459.91,Yes,No,1
+202,25,Female,8,Haircut,40.98,304.22,No,No,3
+203,44,Male,2,Haircut,52.98,160.64,Yes,No,4
+204,26,Female,4,Styling,40.45,88.27,No,No,2
+205,54,Male,1,Haircut,37.52,157.54,No,No,2
+206,50,Male,5,Hair Coloring,39.27,108.39,No,No,3
+207,68,Male,9,Treatment,84.32,1121.7,Yes,No,3
+208,59,Male,1,Hair Coloring,65.44,275.23,No,No,3
+209,61,Male,9,Treatment,40.38,305.13,No,No,5
+210,41,Male,11,Haircut,0.9,330.37,No,Yes,5
+211,32,Female,8,Hair Coloring,19.11,168.56,No,No,5
+212,49,Male,6,Haircut,60.07,182.58,No,Yes,1
+213,49,Female,7,Treatment,7.57,302.66,No,No,2
+214,41,Male,3,Styling,55.86,441.03,Yes,No,4
+215,58,Female,1,Styling,28.69,661.22,No,Yes,1
+216,69,Female,5,Hair Coloring,51.84,89.56,Yes,Yes,2
+217,66,Female,12,Haircut,51.28,826.68,No,No,2
+218,66,Male,12,Haircut,52.41,253.51,No,No,3
+219,69,Male,2,Hair Coloring,42.11,87.9,No,Yes,3
+220,29,Female,5,Styling,41.45,67.4,Yes,No,1
+221,56,Male,8,Treatment,35.58,58.7,No,No,3
+222,19,Female,11,Hair Coloring,59.68,98.54,No,No,2
+223,20,Male,9,Treatment,66.1,578.26,No,No,3
+224,66,Female,2,Styling,25.62,641.85,No,No,5
+225,54,Female,12,Haircut,48.97,790.91,Yes,No,3
+226,66,Male,3,Styling,53.93,66.18,No,No,2
+227,34,Female,3,Hair Coloring,53.68,274.67,No,No,1
+228,66,Male,1,Haircut,53.34,59.19,Yes,Yes,4
+229,19,Female,8,Hair Coloring,41.96,816.52,Yes,Yes,3
+230,19,Female,6,Hair Coloring,55.58,575.97,No,Yes,2
+231,45,Male,12,Styling,62.36,173.14,No,No,4
+232,40,Male,8,Hair Coloring,52.82,542.28,No,No,4
+233,54,Male,11,Styling,60.12,267.78,No,No,5
+234,49,Female,9,Haircut,69.81,36.06,Yes,No,4
+235,50,Male,5,Styling,12.98,243.4,Yes,No,2
+236,18,Female,12,Haircut,68.87,157.42,Yes,Yes,2
+237,36,Female,3,Styling,56.85,79.26,Yes,No,3
+238,19,Male,5,Treatment,27.77,593.23,Yes,No,3
+239,61,Male,5,Treatment,66.05,53.27,Yes,No,3
+240,43,Female,5,Hair Coloring,42.03,175.51,No,No,4
+241,49,Female,3,Styling,44.76,237.29,No,No,4
+242,23,Male,11,Styling,39.85,389.48,No,No,5
+243,49,Male,10,Haircut,56.05,355.09,No,No,3
+244,21,Male,4,Hair Coloring,34.29,477.04,No,No,1
+245,28,Male,9,Styling,68.03,493.34,Yes,No,5
+246,34,Male,10,Hair Coloring,47.22,318.7,Yes,Yes,1
+247,55,Female,9,Treatment,42.72,33.78,Yes,No,4
+248,41,Female,2,Styling,65.06,755.55,Yes,Yes,5
+249,22,Female,8,Styling,43.61,212.98,No,No,5
+250,69,Female,8,Hair Coloring,68.96,201.5,Yes,Yes,2
+251,51,Male,7,Styling,69.59,-57.11,Yes,No,4
+252,23,Male,8,Hair Coloring,23.3,142.53,Yes,No,4
+253,39,Male,3,Styling,72.19,305.09,No,No,5
+254,28,Female,6,Haircut,20.76,217.02,No,Yes,4
+255,65,Female,1,Hair Coloring,73.43,74.75,No,Yes,5
+256,33,Male,7,Styling,90.57,151.91,Yes,Yes,2
+257,50,Male,1,Treatment,67.5,302.62,No,Yes,5
+258,26,Female,9,Styling,6.86,160.97,No,Yes,4
+259,23,Female,1,Treatment,71.27,48.12,No,No,4
+260,33,Male,1,Treatment,94.92,261.34,No,Yes,5
+261,46,Male,7,Haircut,43.94,525.09,Yes,Yes,5
+262,20,Female,2,Hair Coloring,49.31,736.24,No,No,5
+263,37,Male,5,Styling,26.23,210.21,No,No,3
+264,53,Male,8,Haircut,56.24,187.21,Yes,No,4
+265,36,Male,8,Styling,75.38,56.8,No,No,4
+266,43,Female,3,Treatment,63.95,391.51,No,No,3
+267,20,Female,7,Hair Coloring,112.84,201.92,Yes,Yes,5
+268,36,Female,3,Styling,50.66,491.8,No,No,2
+269,37,Female,6,Styling,17.39,31.55,No,No,5
+270,49,Female,6,Treatment,53.42,881.69,No,Yes,5
+271,24,Female,3,Styling,1.67,360.38,Yes,No,3
+272,69,Female,7,Styling,39.34,515.44,No,Yes,4
+273,58,Male,3,Treatment,82.49,303.45,Yes,Yes,5
+274,50,Male,8,Haircut,56.5,388.79,No,No,4
+275,57,Male,10,Treatment,53.59,395.2,Yes,No,1
+276,56,Male,4,Haircut,86.42,173.99,No,No,4
+277,35,Male,1,Hair Coloring,44.59,298.38,No,Yes,2
+278,57,Male,4,Haircut,75.24,226.46,No,No,2
+279,18,Male,7,Haircut,52.59,612.92,No,No,5
+280,28,Female,11,Hair Coloring,57.6,207.12,No,No,4
+281,45,Female,4,Haircut,25.65,23.44,No,No,5
+282,42,Male,6,Treatment,40.36,573.31,Yes,Yes,3
+283,67,Male,9,Haircut,22.05,776.82,No,Yes,2
+284,40,Female,1,Hair Coloring,48.1,425.27,Yes,No,5
+285,48,Male,5,Treatment,57.81,51.4,No,No,3
+286,47,Male,11,Hair Coloring,27.8,283.36,Yes,No,5
+287,59,Female,7,Hair Coloring,90.98,367.73,No,No,4
+288,52,Male,1,Styling,55.56,395.66,No,No,4
+289,24,Female,4,Styling,51.16,274.36,No,Yes,4
+290,33,Male,6,Hair Coloring,65.39,163.27,Yes,No,4
+291,43,Female,2,Hair Coloring,33.42,201.43,No,Yes,1
+292,65,Female,10,Hair Coloring,53.27,139.87,No,No,3
+293,69,Female,5,Styling,35.66,411.83,No,No,3
+294,66,Male,11,Styling,81.17,310.86,Yes,No,4
+295,19,Female,10,Haircut,28.83,271.57,No,No,1
+296,18,Male,1,Haircut,51.26,90.3,No,Yes,4
+297,65,Male,6,Hair Coloring,56.59,408.25,No,Yes,1
+298,29,Male,6,Treatment,57.9,361.62,No,Yes,4
+299,22,Male,4,Treatment,38.38,410.11,No,No,2
+300,54,Female,8,Styling,32.09,691.79,Yes,No,2
+301,49,Female,4,Styling,38.66,361.96,Yes,No,5
+302,26,Male,8,Styling,60.57,167.84,Yes,Yes,4
+303,58,Male,8,Hair Coloring,47.12,63.07,Yes,No,3
+304,52,Female,5,Treatment,65.92,180.23,No,No,5
+305,36,Male,4,Haircut,59.54,808.28,No,No,2
+306,65,Female,12,Hair Coloring,4.46,381.94,Yes,No,4
+307,33,Male,2,Haircut,54.95,457.18,No,No,5
+308,20,Male,11,Haircut,95.01,180.25,Yes,No,4
+309,37,Female,3,Hair Coloring,76.51,712.43,No,Yes,2
+310,41,Male,3,Haircut,58.44,79.37,No,No,5
+311,50,Female,4,Treatment,28.81,230.13,Yes,Yes,2
+312,41,Male,4,Haircut,59.55,224.01,Yes,No,1
+313,69,Male,10,Treatment,64.79,111.29,No,No,2
+314,28,Male,11,Treatment,44.93,584.38,Yes,No,4
+315,66,Female,11,Treatment,56.33,381.72,No,No,3
+316,25,Male,5,Styling,80.19,163.36,No,No,2
+317,53,Male,4,Haircut,32.85,260.99,No,No,3
+318,55,Male,11,Hair Coloring,28.83,230.49,Yes,No,1
+319,57,Male,10,Hair Coloring,63.85,247.7,No,No,5
+320,37,Female,8,Haircut,59.15,263.57,No,No,5
+321,52,Female,6,Styling,70.58,76.15,No,No,3
+322,65,Male,6,Styling,61.4,169.82,Yes,No,5
+323,42,Female,8,Treatment,38.64,297.13,No,No,2
+324,52,Male,7,Haircut,58.64,99.34,No,No,3
+325,42,Male,10,Haircut,27.16,376.99,No,No,4
+326,46,Male,11,Hair Coloring,44.99,389.22,Yes,Yes,2
+327,35,Female,12,Haircut,60.06,486.54,No,Yes,2
+328,63,Female,10,Styling,42.79,473.87,Yes,No,2
+329,35,Female,8,Haircut,99.36,280.26,No,Yes,4
+330,19,Female,2,Hair Coloring,12.16,182.27,No,No,1
+331,52,Female,9,Treatment,39.05,184.16,No,No,5
+332,33,Female,1,Hair Coloring,31.24,1136.27,No,No,3
+333,58,Female,8,Hair Coloring,35.99,206.82,No,No,1
+334,53,Female,12,Treatment,37.14,1101.91,No,No,3
+335,50,Female,11,Hair Coloring,23.47,508.71,Yes,No,5
+336,21,Male,12,Hair Coloring,65.05,221.8,No,No,4
+337,50,Female,12,Haircut,39.06,571.23,No,No,2
+338,31,Female,4,Haircut,53.27,365.02,No,No,2
+339,38,Female,4,Treatment,41.3,310.3,Yes,Yes,4
+340,65,Female,5,Haircut,36.18,230.4,No,No,1
+341,37,Female,8,Haircut,83.45,66.6,No,No,1
+342,25,Female,5,Hair Coloring,68.46,155.77,Yes,No,3
+343,24,Female,8,Styling,12.64,315.56,No,No,4
+344,20,Female,10,Haircut,10.52,966.65,Yes,No,1
+345,34,Female,1,Styling,70.85,471.44,Yes,No,4
+346,50,Female,12,Haircut,39.6,197.66,Yes,No,5
+347,65,Female,10,Haircut,17.02,550.65,Yes,Yes,2
+348,29,Male,9,Treatment,70.91,95.06,No,Yes,2
+349,68,Male,6,Treatment,53.38,239.42,Yes,No,2
+350,39,Female,3,Treatment,55.03,395.41,No,No,4
+351,39,Female,8,Styling,66.19,174.8,Yes,No,4
+352,63,Male,9,Hair Coloring,23.8,200.41,No,No,3
+353,47,Female,6,Haircut,17.37,684.81,No,No,2
+354,55,Male,11,Haircut,81.62,389.32,Yes,No,3
+355,55,Male,7,Haircut,21.26,254.81,Yes,Yes,2
+356,62,Male,1,Styling,25.56,328.61,No,No,3
+357,68,Male,5,Treatment,29.55,292.41,Yes,Yes,3
+358,25,Male,5,Hair Coloring,91.6,156.56,No,Yes,5
+359,44,Female,10,Styling,59.87,107.26,Yes,No,3
+360,44,Male,4,Treatment,69.31,505.1,No,Yes,4
+361,51,Female,6,Styling,53.92,27.59,Yes,Yes,3
+362,38,Female,7,Hair Coloring,37.96,191.2,No,Yes,2
+363,47,Male,9,Treatment,62.63,302.67,Yes,No,3
+364,50,Male,1,Styling,18.87,121.89,No,No,1
+365,45,Female,6,Hair Coloring,28.09,707.79,Yes,No,2
+366,64,Male,7,Haircut,64.66,133.71,No,No,1
+367,50,Male,3,Hair Coloring,22.85,468.19,No,No,2
+368,22,Female,8,Haircut,46.22,72.18,Yes,No,4
+369,65,Female,5,Styling,47.13,512.94,No,Yes,4
+370,36,Male,9,Treatment,39.43,239.69,Yes,No,4
+371,21,Female,5,Treatment,10.98,128.32,No,No,1
+372,52,Male,9,Styling,37.42,251.06,No,No,5
+373,66,Male,10,Treatment,33.5,627.71,No,No,2
+374,34,Male,4,Treatment,53.23,446.44,Yes,No,4
+375,61,Female,9,Haircut,52.21,150.11,No,No,2
+376,45,Female,5,Styling,57.56,190.25,No,No,1
+377,47,Female,10,Hair Coloring,36.48,625.48,No,No,5
+378,46,Female,9,Haircut,60.46,406.09,No,No,1
+379,63,Female,3,Styling,18.88,276.56,No,No,2
+380,23,Male,4,Haircut,13.56,56.09,No,No,5
+381,52,Male,9,Hair Coloring,3.29,-0.14,No,No,5
+382,58,Male,10,Hair Coloring,40.01,135.34,Yes,Yes,1
+383,54,Male,11,Styling,34.93,1151.15,No,No,4
+384,41,Female,6,Hair Coloring,65.79,39.87,No,Yes,2
+385,46,Male,2,Haircut,37.03,-2.79,No,No,3
+386,66,Female,7,Hair Coloring,55.47,252.01,No,No,3
+387,63,Male,2,Haircut,66.27,996.89,No,No,1
+388,48,Female,11,Haircut,36.27,431.28,Yes,Yes,2
+389,52,Female,2,Hair Coloring,55.96,804.98,No,No,2
+390,50,Male,11,Styling,70.04,314.53,No,Yes,1
+391,69,Male,1,Treatment,25.24,201.5,No,No,2
+392,38,Male,11,Hair Coloring,50.5,655.09,Yes,No,4
+393,49,Male,11,Haircut,36.36,25.44,Yes,No,1
+394,40,Female,12,Haircut,26.51,190.6,Yes,No,4
+395,50,Male,11,Hair Coloring,19.27,80.31,No,No,2
+396,20,Male,3,Styling,26.19,115.71,Yes,Yes,1
+397,35,Female,6,Styling,51.2,230.31,No,No,2
+398,42,Male,8,Haircut,17.78,469.52,No,No,1
+399,59,Male,9,Haircut,38.99,263.21,Yes,No,2
+400,48,Male,7,Styling,66.26,689.51,No,No,4
+401,20,Male,4,Treatment,58.98,53.91,No,Yes,4
+402,57,Male,6,Hair Coloring,39.39,488.94,No,No,2
+403,63,Female,5,Haircut,83.79,487.19,No,No,1
+404,41,Male,8,Haircut,87.86,267.36,No,No,3
+405,67,Male,1,Styling,50.52,318.45,No,Yes,4
+406,49,Male,1,Hair Coloring,0.63,322.32,No,Yes,4
+407,64,Male,11,Styling,67.73,682.52,No,No,3
+408,39,Male,6,Hair Coloring,4.12,719.16,Yes,No,2
+409,40,Female,10,Hair Coloring,79.52,334.15,No,Yes,1
+410,19,Male,12,Hair Coloring,71.67,106.76,No,No,2
+411,44,Female,2,Haircut,85.48,497.27,No,No,5
+412,59,Female,5,Treatment,55.21,121.68,Yes,No,4
+413,19,Male,1,Styling,42.77,198.64,No,No,5
+414,43,Male,7,Treatment,41.0,546.33,Yes,No,4
+415,34,Male,1,Styling,39.07,730.1,No,No,4
+416,57,Male,4,Hair Coloring,69.62,207.2,No,No,5
+417,50,Female,9,Haircut,64.25,61.76,Yes,No,5
+418,26,Male,1,Treatment,52.4,501.98,No,Yes,2
+419,60,Male,4,Haircut,35.56,484.81,No,Yes,5
+420,65,Male,6,Styling,102.58,269.02,No,No,2
+421,56,Male,6,Haircut,68.25,547.16,Yes,Yes,2
+422,46,Male,12,Haircut,18.05,313.67,Yes,No,2
+423,59,Male,8,Treatment,39.67,181.62,Yes,Yes,4
+424,43,Female,1,Hair Coloring,68.64,128.3,Yes,Yes,4
+425,52,Female,7,Haircut,34.01,315.79,No,No,5
+426,67,Male,1,Hair Coloring,57.03,240.35,Yes,No,4
+427,42,Male,7,Styling,69.02,689.43,No,No,5
+428,41,Male,3,Haircut,-17.77,153.08,Yes,Yes,4
+429,30,Female,11,Treatment,47.84,109.29,No,Yes,1
+430,24,Male,8,Styling,48.62,819.26,No,No,1
+431,53,Female,3,Styling,41.76,326.21,No,No,5
+432,62,Male,1,Treatment,56.03,350.95,Yes,No,4
+433,37,Male,8,Haircut,63.15,708.39,No,No,4
+434,18,Male,3,Haircut,52.84,285.02,No,No,2
+435,25,Male,2,Styling,42.52,216.79,Yes,No,3
+436,63,Female,1,Haircut,62.65,837.33,Yes,No,5
+437,33,Female,3,Hair Coloring,50.98,489.4,No,No,3
+438,31,Male,2,Treatment,45.39,615.16,No,No,3
+439,29,Male,2,Hair Coloring,23.75,6.66,No,No,5
+440,68,Female,6,Haircut,18.75,405.8,Yes,No,4
+441,40,Female,12,Styling,23.38,370.22,No,No,5
+442,32,Female,1,Treatment,55.57,138.51,No,Yes,3
+443,45,Female,2,Haircut,48.42,93.01,No,Yes,4
+444,51,Male,6,Haircut,20.39,223.3,No,No,1
+445,19,Female,3,Styling,62.92,851.51,No,No,5
+446,49,Male,4,Styling,77.49,259.75,No,Yes,5
+447,40,Female,1,Hair Coloring,38.03,317.05,Yes,No,4
+448,39,Female,8,Treatment,15.18,46.64,No,No,1
+449,68,Female,7,Treatment,35.82,795.96,Yes,No,1
+450,42,Female,7,Styling,67.09,526.29,No,No,4
+451,39,Female,3,Hair Coloring,60.97,261.67,No,No,2
+452,39,Male,10,Treatment,31.55,415.1,No,Yes,5
+453,66,Male,10,Styling,80.42,314.2,Yes,Yes,5
+454,69,Female,3,Haircut,76.97,61.9,No,Yes,3
+455,59,Female,2,Treatment,35.34,799.2,No,No,4
+456,23,Male,12,Hair Coloring,35.13,532.3,Yes,Yes,3
+457,32,Female,1,Hair Coloring,38.14,484.35,Yes,No,3
+458,60,Female,7,Hair Coloring,39.85,473.97,Yes,No,1
+459,54,Male,7,Haircut,69.01,233.82,Yes,No,5
+460,50,Female,12,Treatment,58.51,1229.17,Yes,Yes,3
+461,25,Female,2,Treatment,67.54,294.88,Yes,Yes,1
+462,61,Male,7,Haircut,63.47,235.26,Yes,Yes,4
+463,61,Male,8,Treatment,84.29,375.29,No,No,3
+464,22,Male,1,Haircut,28.81,234.45,No,No,5
+465,56,Female,9,Haircut,57.61,36.11,No,Yes,3
+466,21,Male,7,Haircut,6.52,623.59,No,Yes,4
+467,23,Male,3,Hair Coloring,23.66,646.01,No,Yes,3
+468,62,Male,8,Treatment,48.5,76.53,No,Yes,5
+469,49,Male,7,Haircut,58.36,74.44,No,No,1
+470,69,Male,11,Treatment,47.96,208.89,No,No,5
+471,47,Male,8,Hair Coloring,38.66,481.76,No,No,1
+472,64,Female,6,Haircut,42.21,725.71,Yes,No,2
+473,52,Female,9,Styling,77.39,303.35,Yes,Yes,5
+474,57,Male,5,Hair Coloring,42.32,700.36,No,No,5
+475,69,Male,3,Styling,84.98,131.89,No,No,4
+476,33,Male,3,Treatment,65.88,188.82,Yes,No,3
+477,30,Female,1,Treatment,59.15,66.47,No,No,1
+478,67,Female,12,Hair Coloring,26.13,411.28,No,Yes,1
+479,59,Female,8,Treatment,68.7,28.08,No,Yes,4
+480,47,Female,2,Styling,40.12,98.56,No,Yes,4
+481,36,Female,3,Haircut,26.11,208.63,No,No,3
+482,34,Female,8,Haircut,60.26,285.67,No,No,3
+483,36,Female,8,Haircut,22.24,162.02,No,No,5
+484,45,Female,11,Hair Coloring,34.76,38.39,Yes,No,2
+485,43,Female,4,Treatment,49.8,577.67,No,No,3
+486,54,Male,4,Styling,94.37,397.73,No,No,4
+487,43,Male,5,Treatment,36.26,196.55,No,Yes,3
+488,40,Male,6,Treatment,40.84,51.9,No,No,1
+489,26,Male,5,Treatment,64.65,56.99,No,Yes,2
+490,29,Female,7,Haircut,25.23,339.58,No,No,5
+491,18,Female,2,Styling,58.86,1129.24,No,No,1
+492,18,Male,7,Styling,74.12,27.78,No,Yes,1
+493,64,Female,10,Treatment,43.86,396.75,No,No,2
+494,51,Male,7,Haircut,70.52,182.35,No,No,5
+495,49,Female,1,Haircut,55.83,206.67,Yes,No,4
+496,65,Male,7,Styling,35.39,422.39,No,No,5
+497,42,Female,5,Haircut,46.04,365.14,No,No,3
+498,57,Female,3,Haircut,42.4,401.85,No,Yes,1
+499,62,Male,3,Haircut,48.25,101.22,No,Yes,3
+500,18,Female,4,Hair Coloring,53.05,235.58,No,Yes,4
