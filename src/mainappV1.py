@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 # Load models
-feedback_model = joblib.load('LogisticRegression_Feedback_Score_model.pkl')
-promo_model = joblib.load('LogisticRegression_Promotional_Response_model.pkl')
+feedback_model = joblib.load('/home/amin/my_projects/Machine_learning-Projects/Hair_saloon/src/LogisticRegression_Feedback_Score_model.pkl')
+promo_model = joblib.load('/home/amin/my_projects/Machine_learning-Projects/Hair_saloon/src/LogisticRegression_Promotional_Response_model.pkl')
 
 # Page Configuration
 st.set_page_config(
