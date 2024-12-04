@@ -34,6 +34,19 @@ app_mode = st.sidebar.radio(
 
 # Common Form Inputs
 def input_form():
+    """
+Collects customer details through a Streamlit form and returns them as a dictionary.
+
+Returns:
+    dict: A dictionary containing the following customer details:
+        - Age (int): The customer's age.
+        - Gender (str): The customer's gender, either "Male" or "Female".
+        - Visit_Frequency (int): The number of times the customer visits per month.
+        - Service_Type (str): The type of service the customer used, e.g., "Haircut", "Treatment".
+        - Average_Spend_Per_Visit (float): The average amount spent per visit in dollars.
+        - Total_Spend (float): The total amount spent by the customer in dollars.
+        - Loyalty_Program (str): Whether the customer is in the loyalty program, "Yes" or "No".
+"""
     st.subheader("Customer Details")
     age = st.number_input("Age", min_value=1, max_value=120, value=25, step=1, help="Enter the customer's age.")
     gender = st.selectbox("Gender", ["Male", "Female"], help="Select the customer's gender.")
@@ -64,6 +77,28 @@ def input_form():
 
 # Feature Engineering Function
 def feature_engineering(data):
+    """
+    Feature Engineering Function
+
+    This function takes in a pandas DataFrame and returns a new DataFrame with 
+    additional derived columns. The derived columns include:
+    - Age_Group: The customer's age group, categorized into Teenager, Young Adult, 
+        Adult, Middle Age, or Senior.
+    - Customer_Value: The customer's value based on their total spend, categorized 
+        into Low, Medium, or High.
+    - Visit_Frequency_Group: The customer's visit frequency group, categorized into
+        Rare Visitors, Occasional Visitors, or Frequent Visitors.
+
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        The input DataFrame containing the customer details.
+
+    Returns
+    -------
+    pandas.DataFrame
+        The new DataFrame with derived columns.
+    """
     data["Age_Group"] = np.select(
         [
             (data['Age'] >= 1) & (data['Age'] <= 18),
